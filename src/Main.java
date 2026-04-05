@@ -177,7 +177,7 @@ public class Main {
 
         // Menu-driven interface
         while (true) {
-            System.out.print("===== Village Clinic System =====\n1. Register Patient\n2. Record Visit\n3. View Patient History\n4. Follou-up Due Today\n5. Exit\nEnter choice: ");
+            System.out.print("===== Village Clinic System =====\n1. Register Patient\n2. Record Visit\n3. View Patient History\n4. Follow-up Due Today\n5. Exit\nEnter choice: ");
             ch = Integer.parseInt(br.readLine());
 
             switch (ch) {
